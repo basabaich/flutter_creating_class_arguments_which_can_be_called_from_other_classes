@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           //and not from "GradientContainer()" class. Actually this can now be
           //done from any class.
           //
-          colors: [
+          colorsArguemnt: [
             Color.fromARGB(255, 160, 90, 70),
             Color.fromARGB(255, 180, 175, 65),
           ],
