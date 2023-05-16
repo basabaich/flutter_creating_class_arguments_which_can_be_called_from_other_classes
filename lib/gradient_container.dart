@@ -14,10 +14,10 @@ class GradientContainer extends StatelessWidget {
   //some values. So, we have to put required before the argument. As such the
   //modified lines below is the new changed constructor code line:
   //
-  const GradientContainer({super.key, required this.colorsArguemnt});
+  const GradientContainer({super.key, required this.colorsArgument});
 //
 //
-  final List<Color> colorsArguemnt;
+  final List<Color> colorsArgument;
 //We are defining a "List" variable for Color type as final & calling it
 //"colors"
 
@@ -28,7 +28,7 @@ class GradientContainer extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: colorsArguemnt,
+          colors: colorsArgument,
           //
           //Above the "colors" (2nd one) variable is used against "colors:"
           //The below line of codes were the actual line of hard codes which
